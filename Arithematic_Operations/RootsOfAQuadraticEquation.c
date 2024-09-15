@@ -3,7 +3,7 @@
 int main()
 {
     int a,b,c;
-    printf("Enter the three values of the quadratoc equation:-\n");
+    printf("Enter the coefficient's of the equation:-\n");
     scanf("%d %d %d",&a,&b,&c);
     float r1,r2;
     r1 = (-b + sqrt((b*b) - 4*a*c))/(2*a);
