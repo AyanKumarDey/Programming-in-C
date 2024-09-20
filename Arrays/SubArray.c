@@ -1,5 +1,5 @@
 #include <stdio.h>
-int SubSet(int *,int *,int,int);
+int SubArray(int *,int *,int,int);
 int main()
 {
     int n;
@@ -20,10 +20,10 @@ int main()
     {
         scanf("%d",&arr2[j]);
     }
-    SubSet(arr,arr2,n,m);
+    SubArray(arr,arr2,n,m);
 }
 
-int SubSet(int *arr1,int *arr2,int n,int m)
+int SubArray(int *arr1,int *arr2,int n,int m)
 {
     int count2 = 0;
     for(int i=0;i<m;i++)
